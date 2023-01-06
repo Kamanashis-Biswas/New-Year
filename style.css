@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
-section{
+section {
     margin-top: 130px;
 }
 
@@ -18,9 +18,9 @@ section{
     margin: 216px 230px 160px 845px;
     text-align: center;
     width: 525px;
-    
-    
-    
+
+
+
 }
 
 main {
@@ -32,14 +32,19 @@ main {
     display: flex;
 }
 
+.personal-left {
+    margin-left: 130px;
+}
+
 .personal-right {
     margin-top: 240px;
     margin-left: 90px;
 }
 
-.personal-right .section-title{
-width: 290px;
+.personal-right .section-title {
+    width: 290px;
 }
+
 .section-title {
     font-weight: 700;
     font-size: 40px;
@@ -81,6 +86,41 @@ width: 290px;
     font-weight: 500;
 }
 
+/* Start Mind Set Style */
+.mind-set {
+    background-image: url(images/gradient2.png);
+    background-repeat: no-repeat;
+    margin-bottom: 130px;
+}
+
+.mind-set-details {
+    width: 450px;
+    padding-left: 295px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.mind-set-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.coll-btn {
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    border: none;
+    border-radius: 8px;
+}
+
+/* End Mind Set Style */
+
+/* Start Footer Style */
 .footer {
     background: #151414;
     padding: 130px 0;
@@ -148,3 +188,5 @@ input[type="email"] {
     border-radius: 8px;
     margin-top: 16px;
 }
+
+/* End Footer Style */
