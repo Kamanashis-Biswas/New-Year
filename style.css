@@ -138,3 +138,13 @@ input[type="email"] {
     background: #151414;
     padding-left: 21px;
 }
+
+.subscribe-btn {
+    width: 170px;
+    height: 64px;
+    font-size: 21px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 16px;
+}
