@@ -37,10 +37,12 @@ main {
     margin-left: 90px;
 }
 
+.personal-right .section-title{
+width: 290px;
+}
 .section-title {
     font-weight: 700;
     font-size: 40px;
-    width: 290px;
     margin-bottom: 24px;
 }
 
@@ -52,4 +54,28 @@ main {
 
 .personal-point p {
     margin-bottom: 8px;
+}
+
+.plan .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+    text-align: center;
+}
+
+.skill-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.skill-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
 }
