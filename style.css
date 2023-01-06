@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section{
+    margin-top: 130px;
+}
+
+/* Banner Section Style */
+.banner {
+    /* background-image: url(images/banner/banner1.png); */
+    background-color: bisque;
+    padding: 108px 0px;
+}
+
+.banner-info {
+    margin: 216px 230px 160px 845px;
+    text-align: center;
+    width: 525px;
+    
+    
+    
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.personal-info {
+    display: flex;
+}
+
+.personal-right {
+    margin-top: 240px;
+    margin-left: 90px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 290px;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    width: 415px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.personal-point p {
+    margin-bottom: 8px;
+}
