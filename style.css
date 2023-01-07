@@ -184,9 +184,14 @@ main {
     display: flex;
 }
 
-
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
 .footer-left {
-    padding-left: 190px;
+    width: 450px;
 }
 
 .left-footer-title {
@@ -199,7 +204,6 @@ main {
 .left-footer-description {
     color: #FFFFFF;
     margin-bottom: 24px;
-    width: 379px;
 }
 
 .email {
@@ -215,10 +219,6 @@ main {
 .footer-left a {
     text-decoration: none;
     margin-right: 20px;
-}
-
-.footer-right {
-    margin-left: 650px;
 }
 
 .right-footer-title {
