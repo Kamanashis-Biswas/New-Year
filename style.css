@@ -45,6 +45,10 @@ main {
     width: 290px;
 }
 
+.personal-right .section-description {
+    width: 415px;
+}
+
 .section-title {
     font-weight: 700;
     font-size: 40px;
@@ -52,7 +56,7 @@ main {
 }
 
 .section-description {
-    width: 415px;
+
     font-size: 16px;
     margin-bottom: 16px;
 }
@@ -85,6 +89,55 @@ main {
     font-size: 25px;
     font-weight: 500;
 }
+
+/* Start Service Section Styles */
+.Service-description {
+    text-align: center;
+}
+.Service-description hr {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.card-cointainer {
+    display: flex;
+}
+
+.service-card img {
+    width: 100px;
+}
+
+.service-card {
+    text-align: center;
+}
+
+.service-card {
+    text-align: center;
+    margin-top: 70px;
+    background: #e4ebe0;
+    padding: 30px 35px;
+    border-radius: 20px;
+    box-shadow: 6px 8px 10px #cfe4c3;
+}
+
+.btn-readmore {
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+
+
+
+.card-cointainer {
+    display: flex;
+    gap: 100px;
+}
+
+/* End Service Section Styles */
 
 /* Start Mind Set Style */
 .mind-set {
