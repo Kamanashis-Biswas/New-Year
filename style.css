@@ -186,7 +186,6 @@ main {
 
 
 .footer-left {
-    width: 485px;
     padding-left: 190px;
 }
 
@@ -200,6 +199,7 @@ main {
 .left-footer-description {
     color: #FFFFFF;
     margin-bottom: 24px;
+    width: 379px;
 }
 
 .email {
@@ -218,7 +218,7 @@ main {
 }
 
 .footer-right {
-    margin-left: 550px;
+    margin-left: 650px;
 }
 
 .right-footer-title {
