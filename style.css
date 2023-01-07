@@ -7,9 +7,9 @@ section {
     margin-top: 130px;
 }
 
-/* Banner Section Style */
-.banner {
-    /* background-image: url(images/banner/banner1.png); */
+/* Start Banner Section Style */
+/* .banner {
+    background-image: url(images/banner/banner1.png);
     background-color: bisque;
     padding: 108px 0px;
 }
@@ -18,22 +18,40 @@ section {
     margin: 216px 230px 160px 845px;
     text-align: center;
     width: 525px;
-
-
-
+} */
+.banner{
+    background-image: url('images/banner/banner1.png');
 }
+.banner-info {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-description {
+    padding-top: 220px;
+}
+/* End Banner Section Style */
 
 main {
     width: 80%;
     margin: 0 auto;
 }
 
-.personal-info {
-    display: flex;
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
 }
 
-.personal-left {
-    margin-left: 130px;
+.section-description {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+/* Start Personal Section Style */
+.personal-info {
+    display: flex;
+    justify-content: center;
 }
 
 .personal-right {
@@ -49,21 +67,13 @@ main {
     width: 415px;
 }
 
-.section-title {
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 24px;
-}
 
-.section-description {
-
-    font-size: 16px;
-    margin-bottom: 16px;
-}
 
 .personal-point p {
     margin-bottom: 8px;
 }
+
+/* Start Personal Section Style */
 
 .plan .section-title {
     text-align: center;
@@ -94,6 +104,7 @@ main {
 .Service-description {
     text-align: center;
 }
+
 .Service-description hr {
     width: 300px;
     margin: 0 auto;
@@ -190,6 +201,7 @@ main {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-left {
     width: 450px;
 }
