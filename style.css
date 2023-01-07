@@ -8,28 +8,43 @@ section {
 }
 
 /* Start Banner Section Style */
-/* .banner {
+.banner {
     background-image: url(images/banner/banner1.png);
-    background-color: bisque;
-    padding: 108px 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .banner-info {
-    margin: 216px 230px 160px 845px;
-    text-align: center;
-    width: 525px;
-} */
-.banner{
-    background-image: url('images/banner/banner1.png');
+    padding-top: 120px;
+    padding-left: 1027px;
+    width: 460px;
+    text-align: right;
 }
-.banner-info {
-    width: 80%;
-    margin: 0 auto;
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 25px;
 }
 
 .banner-description {
-    padding-top: 220px;
+    margin-bottom: 25px;
 }
+
+.banner-button {
+    margin-bottom: 200px;
+}
+
+.banner-button {
+    margin-bottom: 200px;
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 /* End Banner Section Style */
 
 main {
