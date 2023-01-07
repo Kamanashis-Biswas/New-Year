@@ -88,9 +88,12 @@ main {
 
 /* Start Mind Set Style */
 .mind-set {
-    background-image: url(images/gradient2.png);
     background-repeat: no-repeat;
     margin-bottom: 130px;
+    background-image: url(images/gradient2.png), url(images/watch.png);
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
 }
 
 .mind-set-details {
